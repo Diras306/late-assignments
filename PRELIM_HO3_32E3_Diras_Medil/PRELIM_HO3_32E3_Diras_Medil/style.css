@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F4F9; /* Light gray background */
+    color: #333333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.navbar {
+    background-color: #3C4B64;  /* Dark blue background for navbar */
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #ffffff !important;  /* White text for navbar links */
+}
+
+.navbar .nav-link:hover {
+    color: #FFC107 !important;  /* Yellow hover effect for links */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #4CAF50;  /* Green button color */
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #45A049;  /* Darker green on hover */
+}
+
+form .btn-primary {
+    background-color: #4CAF50;  /* Green for form button */
+}
+
+form .btn-primary:hover {
+    background-color: #45A049;  /* Darker green on form button hover */
+}
+
+/* Home Page */
+.container.mt-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container.mt-5 h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3C4B64; /* Dark blue for the title */
+}
+
+.container.mt-5 p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333; /* Dark gray text for body */
+}
+
+/* About Page */
+.container.mt-5 h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3C4B64;
+}
+
+.container.mt-5 p {
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+/* Contact Page */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-label {
+    font-size: 1.1rem;
+    color: #3C4B64;
+}
+
+form .form-control {
+    border: 1px solid #ccc;
+}
+
+form .btn-primary {
+    background-color: #4CAF50;
+    border: none;
+}
+
+form .btn-primary:hover {
+    background-color: #45A049;
+}
+
+/* Footer */
+footer {
+    background-color: #3C4B64; /* Dark blue background for footer */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container.mt-5 h1 {
+        font-size: 2rem;
+    }
+
+    .container.mt-5 p {
+        font-size: 1rem;
+    }
+}
